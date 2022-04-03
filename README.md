@@ -144,7 +144,7 @@
   ## [Video](#table-of-contents)
  
    - Video Guide SEED & MYSQL- [video guide](https://www.awesomescreenshot.com/video/8212028?key=c7bd96a5e6b4bb979d54ddb8934fc0b9)
-   - Video Guide - [video guide](https://www.awesomescreenshot.com/video/8212028?key=c7bd96a5e6b4bb979d54ddb8934fc0b9)
+   - Video Guide TAG Category - [video guide](https://www.awesomescreenshot.com/video/8212123?key=a60afa50b8fadb9d49c75aa3fe797bb2)
    - Video Guide - [video guide](https://www.awesomescreenshot.com/video/8212028?key=c7bd96a5e6b4bb979d54ddb8934fc0b9)
    - Video Guide - [video guide](https://www.awesomescreenshot.com/video/8212028?key=c7bd96a5e6b4bb979d54ddb8934fc0b9)
   
