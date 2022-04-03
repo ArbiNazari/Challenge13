@@ -14,47 +14,131 @@
  
  Application Design and Function
 
- As a manager, I want to generate a webpage that displays my team's basic info
- so that I have quick access to their emails and GitHub profile.
+ As a manager at an internet retail company, I want to a back end for
+ my e-commerce website that uses the latest technologies so that my company 
+ can compete with other e-commerce companies.
 
 
  # My Task and Application Requirments
 
-  - Use Node.js and Express.js to create a RESTful API.
+  - Given a functional Express.js API, I want to add database name, MySQL username, 
+    and MySQL password to an environment variable file.
 
-  - Use Handlebars.js as the templating engine.
+  - Then I want to be able to connect to a database using Sequelize when I I enter 
+    schema and seed commands.
 
-  - Use MySQL and the Sequelize ORM for the database.
+  - Then a development database is created and is seeded with test data when 
+    I enter the command to invoke the application.
 
-  - Have both GET and POST routes for retrieving and adding new data.
+  - Then server is started and the Sequelize models are synced to the MySQL database when
+    I open API GET routes in Insomnia for categories, products, or tags
 
-  - Be deployed using Heroku (with data).
+  - Then the data for each of these routes is displayed in a formatted JSON when 
+    I test API POST, PUT, and DELETE routes in Insomnia.
 
-  - Use at least one new library, package, or technology that we haven’t discussed.
+  - Then I am able to successfully create, update, and delete data in my database.
 
-  - Have a polished UI.
+  Data Base Tags: 
 
-  - Be responsive.
+    Category
 
-  - Be interactive (i.e., accept and respond to user input).
+        id
 
-  - Have a folder structure that meets the MVC paradigm.
+        Integer
 
-  - Include authentication (express-session and cookies).
+        Doesn't allow null values
 
-  - Protect API keys and sensitive information with environment variables.
+        Set as primary key
 
-  - Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class/id naming conventions, indentation, quality comments, etc.).
+        Uses auto increment
 
-  - Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
+        category_name
 
+        String
 
-    Application Structuring:
-    ├──
-    ├── assest                  // rendered output (HTML), Images and CSS style sheet      
-    ├── .gitignore               // indicates which folders and files Git should ignore
-    ├── index.html               // runs the application
-    └── package.json           
+        Doesn't allow null values
+
+    Product
+
+        id
+
+        Integer
+
+        Doesn't allow null values
+
+        Set as primary key
+
+        Uses auto increment
+
+        product_name
+
+        String
+
+        Doesn't allow null values
+
+        price
+
+        Decimal
+
+        Doesn't allow null values
+
+        Validates that the value is a decimal
+
+        stock
+
+        Integer
+
+        Doesn't allow null values
+
+        Set a default value of 10
+
+        Validates that the value is numeric
+
+        category_id
+
+        Integer
+
+        References the category model's id
+
+    Tag
+
+        id
+
+        Integer
+
+        Doesn't allow null values
+
+        Set as primary key
+
+        Uses auto increment
+
+        tag_name
+
+        String
+
+    ProductTag
+
+        id
+
+        Integer
+
+        Doesn't allow null values
+
+        Set as primary key
+
+        Uses auto increment
+
+        product_id
+
+        Integer
+
+        References the product model's id
+
+        tag_id
+
+        Integer
+
+        References the tag model's id
 
   
   ## [Video](#table-of-contents)
