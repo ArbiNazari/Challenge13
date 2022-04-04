@@ -156,14 +156,6 @@
 
 ![Products](https://user-images.githubusercontent.com/95839411/161455670-b0632254-803a-4f4f-b629-17a60a1a6b87.jpg)
 
-  
-![seeds](https://user-images.githubusercontent.com/95839411/161455641-10cb666c-642a-4ceb-a721-ab041bb722df.jpg)
-
-![Tags](https://user-images.githubusercontent.com/95839411/161455653-18fa75c7-bd58-478a-8c35-c9648332ec9e.jpg)
-
-![cat](https://user-images.githubusercontent.com/95839411/161455662-43d395e7-d015-4bfe-b263-f658d59809e7.jpg)
-
-![Products](https://user-images.githubusercontent.com/95839411/161455670-b0632254-803a-4f4f-b629-17a60a1a6b87.jpg)
 
   ## [License](#table-of-contents)
   The application is covered under the following license:
